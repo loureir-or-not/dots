@@ -1,0 +1,8 @@
+[user]
+	name = Renato Loureiro
+	email = loureir.or.not@gmail.com
+	signingKey = 67D90476C7B50174
+[commit]
+	gpgsign = true
+[init]
+	defaultbranch = main

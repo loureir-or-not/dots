@@ -1,0 +1,18 @@
+[general]
+accounts = main
+pythonfile = ~/.config/offlineimap/offlineimap.py
+
+[Account main]
+localrepository = main-local
+remoterepository = main-remote
+
+[Repository main-local]
+type = GmailMaildir
+trashfolder = Trash
+localfolders = ~/Mail/Personal.Gmail
+
+[Repository main-remote]
+type = Gmail
+remoteuser = loureir.or.not@gmail.com
+remotepasseval = get_freedesktop_secret("Login", "loureir.or.not@gmail.com")
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt

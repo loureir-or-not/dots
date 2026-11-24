@@ -1,0 +1,10 @@
+account loureir.or.not@gmail.com
+host smtp.gmail.com
+port 587
+tls on
+tls_starttls on
+auth on
+user loureir.or.not
+from loureir.or.not@gmail.com
+
+account default : loureir.or.not@gmail.com
